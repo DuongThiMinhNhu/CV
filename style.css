@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #deded3;
+}
+body #main {
+  width: 1200px;
+  margin: 4rem auto;
+  background-color: #f4f4f4;
+  padding: 40px;
+  -webkit-box-shadow: -1px 4px 44px 5px rgba(0, 0, 0, 0.39);
+  box-shadow: -1px 4px 44px 5px rgba(0, 0, 0, 0.39);
+}
+body #main .row {
+  display: flex;
+}
+body #main .left {
+  height: auto;
+  float: left;
+  width: 37%;
+  background-color: #142434;
+}
+body #main .left .item {
+  display: flex;
+  margin: 0px auto;
+  margin-top: 10px;
+  text-align: center;
+  flex-direction: column;
+}
+body #main .left .item .title {
+  display: flex;
+}
+body #main .left .item .title .box {
+  width: 45px;
+  height: 51px;
+  clip-path: polygon(50% 0, 99% 25%, 99% 75%, 50% 100%, 0 75%, 0 25%);
+  background-color: #e6e6e8;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 2px;
+}
+body #main .left .item .title .box .icon {
+  top: 3px;
+  left: 2px;
+  position: relative;
+  width: 41px;
+  height: 45px;
+  background: #142434;
+  box-sizing: border-box;
+  border: blanchedalmond;
+  clip-path: polygon(50% 0, 99% 25%, 99% 75%, 50% 100%, 0 75%, 0 25%);
+}
+body #main .left .item .title .box .icon i {
+  top: 10px;
+  left: 0px;
+  width: 41px;
+  height: 45px;
+  font-size: 26px;
+  color: #ffffff;
+  position: absolute;
+  align-items: center;
+}
+body #main .left .item .title span.type {
+  margin: auto;
+  margin-left: 4px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  width: 50px;
+  width: 45%;
+  text-align: left;
+  text-transform: uppercase;
+}
+body #main .left .item .title span.line {
+  width: 32%;
+  height: 5px;
+  background: #ffffff;
+  margin: auto 0;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+body #main .left .item .content {
+  color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 4px;
+}
+body #main .left .item .content p {
+  text-align: left;
+  margin-top: 0px;
+}
+body #main .left .inforProfile .title span.type {
+  width: 21%;
+}
+body #main .left .inforProfile .title span.line {
+  width: 40%;
+}
+body #main .left .inforConnect .title span.type {
+  width: 21%;
+}
+body #main .left .inforConnect .title span.line {
+  width: 40%;
+}
+body #main .left .inforPersonal .title span.type {
+  width: 50%;
+}
+body #main .left .inforPersonal .title span.line {
+  width: 27%;
+}
+body #main .left .inforContact .title span.type {
+  width: 50%;
+}
+body #main .left .inforContact .title span.line {
+  width: 27%;
+}
+body #main .left div.infor {
+  margin: 0 auto;
+}
+body #main .left div.infor div.box {
+  filter: drop-shadow(0 0 2px #000000);
+  width: 80%;
+  margin: 0 auto;
+}
+body #main .left div.infor div.box div.avata {
+  position: relative;
+  width: 182px;
+  height: 184px;
+  background: #ffffff;
+  box-sizing: border-box;
+  clip-path: polygon(50% 0, 99% 25%, 99% 75%, 50% 100%, 0 75%, 0 25%);
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body #main .left div.infor div.box div.avata img {
+  margin-top: 2px;
+  top: 2px;
+  left: 5px;
+  width: 173px;
+  height: 175px;
+  position: absolute;
+  clip-path: polygon(50% 0, 99% 25%, 99% 75%, 50% 100%, 0 75%, 0 25%);
+}
+body #main .left div.infor h4.name {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 10px auto;
+}
+body #main .left div.infor h5.position {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 300;
+  margin: 10px auto;
+}
+body #main .left .inforContact,
+body #main .left .inforConnect {
+  margin-bottom: 30px;
+}
+body #main .left .inforContact .contentContact .inforrow,
+body #main .left .inforConnect .contentContact .inforrow {
+  display: flex;
+  text-align: center;
+  margin-left: -15px;
+  margin-bottom: 5px;
+}
+body #main .left .inforContact .contentContact .inforrow .iconrow,
+body #main .left .inforConnect .contentContact .inforrow .iconrow {
+  width: 40px;
+  height: 45px;
+  clip-path: polygon(50% 0, 99% 25%, 99% 75%, 50% 100%, 0 75%, 0 25%);
+  background-color: #ffffff;
+  text-align: center;
+}
+body #main .left .inforContact .contentContact .inforrow .iconrow i,
+body #main .left .inforConnect .contentContact .inforrow .iconrow i {
+  color: #000000;
+  width: 36px;
+  height: 40px;
+  font-size: 19px;
+  margin-top: 15px;
+}
+body #main .left .inforContact .contentContact .inforrow .iconrow img,
+body #main .left .inforConnect .contentContact .inforrow .iconrow img {
+  color: #000000;
+  width: 24px;
+  height: 26px;
+  font-size: 19px;
+  margin-top: 10px;
+}
+body #main .left .inforContact .contentContact .inforrow p,
+body #main .left .inforConnect .contentContact .inforrow p {
+  margin: auto;
+  margin-left: 20px;
+}
+body #main .left .inforPersonal .content ul {
+  margin-top: 0px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 0px;
+}
+body #main .left .inforPersonal .content ul li {
+  list-style: circle;
+  margin-left: 30px;
+  padding: 5px;
+}
+body #main .left .inforPersonal .content ul li .bar {
+  width: 60%;
+  float: right;
+  height: 12px;
+  font-size: 11px;
+  border-radius: 20px;
+  text-align: center;
+  border: 0.001px solid #ffffff;
+}
+body #main .left .inforPersonal .content ul li .bar .skills {
+  color: #ffffff;
+  /* $while text color */
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+body #main .left .inforPersonal .content ul li .bar .hobbies {
+  width: 70%;
+}
+body #main .left .inforPersonal .content ul li .bar .innvovate {
+  width: 80%;
+}
+body #main .left .inforPersonal .content ul li .bar .teamWork {
+  width: 60%;
+}
+body #main .left .inforPersonal .content ul li .bar .createive {
+  width: 90%;
+}
+body #main .right {
+  background-color: #dedede;
+  height: auto;
+}
+body #main .right .item {
+  display: flex;
+  margin: 0px auto;
+  text-align: center;
+  flex-direction: column;
+}
+body #main .right .item .title {
+  display: flex;
+  margin-bottom: 9px;
+  padding: 7.4px;
+}
+body #main .right .item .title .box {
+  width: 75px;
+  height: 68px;
+  clip-path: polygon(50% 0, 99% 25%, 99% 75%, 50% 100%, 0 75%, 0 25%);
+  background-color: #142434;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 2px;
+}
+body #main .right .item .title .box .icon {
+  margin-top: 1.5px;
+  top: 5px;
+  left: 3.8px;
+  position: relative;
+  width: 56px;
+  height: 60px;
+  top: 2px;
+  background: #dedede;
+  box-sizing: border-box;
+  clip-path: polygon(50% 0, 99% 25%, 99% 75%, 50% 100%, 0 75%, 0 25%);
+}
+body #main .right .item .title .box .icon i {
+  margin-top: 8px;
+  top: 8px;
+  left: 5px;
+  width: 41px;
+  height: 45px;
+  font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  align-items: center;
+  color: #142434;
+}
+body #main .right .item .title span.type {
+  margin: auto;
+  margin-left: 4px;
+  color: #142434;
+  font-weight: bold;
+  font-size: 30px;
+  width: 50px;
+  width: 39%;
+  text-align: left;
+  text-transform: uppercase;
+}
+body #main .right .item .title span.line {
+  width: 66%;
+  height: 6px !important;
+  background: #142434;
+  margin: auto 0;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+body #main .right .item .content {
+  text-align: left;
+  color: #ffffff;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+body #main .right .item .content ul li {
+  color: #142434;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+body #main .right .item2 .title span.type {
+  width: 46%;
+}
+body #main .right .item2 .title span.line {
+  width: 60%;
+}
+body #main .right .item2 .content {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  -webkit-column-rule: 1px solid transparent;
+  -moz-column-rule: 1px solid transparent;
+  column-rule: 1px solid transparent;
+  margin-bottom: 26px;
+}
+body #main .right .item2 .content ul li {
+  padding-bottom: 10px;
+}
+body #main .right .item2 .content ul li .bar {
+  width: 60%;
+  float: right;
+  font-size: 15px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #142434;
+}
+body #main .right .item2 .content ul li .bar .skills {
+  background-color: #142434;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #142434;
+}
+body #main .right .item2 .content ul li .bar .css {
+  width: 80%;
+}
+body #main .right .item2 .content ul li .bar .html {
+  width: 85%;
+}
+body #main .right .item2 .content ul li .bar .java {
+  width: 80%;
+}
+body #main .right .item2 .content ul li .bar .c {
+  width: 80%;
+}
+body #main .right .item2 .content ul li .bar .ui {
+  width: 70%;
+}
+body #main .right .item2 .content ul li .bar .sql {
+  width: 50%;
+}
+body #main .right .proficiency .title span.type {
+  width: 28%;
+}
+body #main .right .proficiency .title span.line {
+  width: 78%;
+}
+body #main .right .proficiency .content {
+  padding-bottom: -3px;
+}
+body #main .right .education .title span.type {
+  width: 25%;
+}
+body #main .right .education .title span.line {
+  width: 81%;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

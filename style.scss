@@ -1,0 +1,495 @@
+$primary__color: #142434;
+$primary__color1:#dedede;
+$primary__color2:#deded3;
+$while:#ffffff;
+$main_color:#f4f4f4;
+$width:80%;
+$width1:100%;
+$css: 80%;
+$java:80%;
+$html:85%;
+$c:80%;
+$ui:70%;
+$sql:50%;
+$width:80%;
+$width1:100%;
+$shape : polygon(50% 0, 99% 25%, 99% 75%, 50% 100%, 0 75%, 0 25%);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: $primary__color2;
+  #main {
+    width: 1200px;
+    margin: 4rem auto;
+    background-color: $main_color;
+    padding: 40px;
+    -webkit-box-shadow: -1px 4px 44px 5px rgba(0,0,0,0.39); 
+     box-shadow: -1px 4px 44px 5px rgba(0,0,0,0.39);
+      .row{
+          display: flex;
+      }
+     .left {
+      height: auto;
+      float: left;
+      width: 37%;
+      background-color: $primary__color;
+
+      .item {
+        display: flex;
+        margin: 0px auto;
+        margin-top: 10px;
+        text-align: center;
+        flex-direction: column;
+
+        .title {
+          display: flex;
+
+          .box {
+            width: 45px;
+            height: 51px;
+            clip-path: $shape;
+            background-color: #e6e6e8;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 20px;
+            margin-right: 2px;
+
+            .icon {
+              top: 3px;
+              left: 2px;
+              position: relative;
+              width: 41px;
+              height: 45px;
+              background: $primary__color;
+              box-sizing: border-box;
+              border: blanchedalmond;
+              clip-path: $shape;
+
+              i {
+                top: 10px;
+                left: 0px;
+                width: 41px;
+                height: 45px;
+                font-size: 26px;
+                color: $while;
+                position: absolute;
+                align-items: center;
+              }
+            }
+          }
+
+          span.type {
+            margin: auto;
+            margin-left: 4px;
+            color: $while;
+            font-weight: 700;
+            font-size: 20px;
+            width: 50px;
+            width: 45%;
+            text-align: left;
+            text-transform: uppercase;
+          }
+
+          span.line {
+            width: 32%;
+            height: 5px;
+            background: $while;
+            margin: auto 0;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+          }
+        }
+
+        .content {
+          color: $while;
+          width: 80%;
+          margin: 0 auto;
+          margin-bottom: 4px;
+
+          p {
+            text-align: left;
+            margin-top: 0px;
+          }
+
+        }
+      }
+      .inforProfile{
+        .title {
+          span.type {
+            width: 21%;
+          }
+
+          span.line {
+            width: 40%;
+          }
+        }
+      }
+      .inforConnect{
+        .title {
+          span.type {
+            width: 21%;
+          }
+
+          span.line {
+            width: 40%;
+          }
+        }
+      }
+      .inforPersonal{
+          .title {
+            span.type {
+              width: 50%;
+            }
+  
+            span.line {
+              width: 27%;
+            }
+          }
+      }
+      .inforContact{
+        .title {
+          span.type {
+            width: 50%;
+          }
+
+          span.line {
+            width: 27%;
+          }
+        }
+        // 
+      }
+
+      div.infor {
+        margin: 0 auto;
+
+        div.box {
+          filter: drop-shadow(0 0 2px #000000);
+          width: $width;
+          margin: 0 auto;
+
+          div.avata {
+            position: relative;
+            width: 182px;
+            height: 184px;
+            background: $while;
+            box-sizing: border-box;
+            clip-path: $shape;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            img {
+              margin-top: 2px;
+              top: 2px;
+              left: 5px;
+              width: 173px;
+              height: 175px;
+              position: absolute;
+              clip-path: $shape;
+            }
+          }
+        }
+
+        h4.name {
+          color: $while;
+          font-size: 30px;
+          text-align: center;
+          font-weight: 800;
+          text-transform: uppercase;
+          margin: 10px auto;
+        }
+
+        h5.position {
+          color: $while;
+          font-size: 25px;
+          text-align: center;
+          font-weight: 300;
+          margin: 10px auto;
+        }
+      }
+
+      .inforContact,
+      .inforConnect {
+        margin-bottom: 30px;
+
+        .contentContact {
+          .inforrow {
+            display: flex;
+            text-align: center;
+            margin-left: -15px;
+            margin-bottom: 5px;
+
+            .iconrow {
+              width: 40px;
+              height: 45px;
+              clip-path: $shape;
+              background-color: $while;
+              text-align: center;
+
+              i {
+                color: #000000;
+                width: 36px;
+                height: 40px;
+                font-size: 19px;
+                margin-top: 15px;
+              }
+
+              img {
+                color: #000000;
+                width: 24px;
+                height: 26px;
+                font-size: 19px;
+                margin-top: 10px;
+              }
+            }
+
+            p {
+              margin: auto;
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+
+      .inforPersonal {
+        .content {
+          ul {
+            margin-top: 0px;
+            text-align: left;
+            text-transform: uppercase;
+            font-size: 15px;
+            padding: 0px;
+
+            li {
+              list-style: circle;
+              margin-left: 30px;
+              padding: 5px;
+
+              .bar {
+                width: 60%;
+                float: right;
+                height: 12px;
+                font-size: 11px;
+                border-radius: 20px;
+                text-align: center;
+                border: 0.001px solid $while;
+
+                .skills {
+                  color: $while;
+                  /* $while text color */
+                  background-color: $while;
+                  border-top-left-radius: 20px;
+                  border-bottom-left-radius: 20px;
+                }
+
+                .hobbies {
+                  width: 70%;
+                }
+
+                .innvovate {
+                  width: 80%;
+                }
+
+                .teamWork {
+                  width: 60%;
+                }
+
+                .createive {
+                  width: 90%;
+                }
+
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    .right {
+      background-color: $primary__color1;
+      height: auto;
+      .item {
+        display: flex;
+        margin: 0px auto;
+        text-align: center;
+        flex-direction: column;
+
+        .title {
+          display: flex;
+          margin-bottom: 9px;
+          padding: 7.4px;
+          .box {
+            width: 75px;
+            height: 68px;
+            clip-path: $shape;
+            background-color: $primary__color;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 2px;
+
+            .icon {
+              margin-top: 1.5px;
+              top: 5px;
+              left: 3.8px;
+              position: relative;
+              width: 56px;
+              height: 60px;
+              top: 2px;
+              background: $primary__color1;
+              box-sizing: border-box;
+              clip-path: $shape;
+              i {
+                margin-top: 8px;
+                top: 8px;
+                left: 5px;
+                width: 41px;
+                height: 45px;
+                font-size: 30px;
+                color: $while;
+                position: absolute;
+                align-items: center;
+                color: $primary__color;
+              }
+            }
+          }
+
+          span.type {
+            margin: auto;
+            margin-left: 4px;
+            color: $primary__color;
+            font-weight: bold;
+            font-size: 30px;
+            width: 50px;
+            width: 39%;
+            text-align: left;
+            text-transform: uppercase;
+          }
+
+          span.line {
+            width: 66%;
+            height: 6px !important;
+            background: $primary__color;
+            margin: auto 0;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+          }
+        }
+
+        .content {
+          text-align: left;
+          color: $while;
+          width: 85%;
+          margin: 0 auto;
+          margin-bottom: 14px;
+
+          ul {
+            li {
+              color: $primary__color;
+              font-size: 24px;
+              padding-bottom:20px;
+            }
+          }
+        }
+      }
+
+      .item2 {
+        .title {
+          span.type {
+            width: 46%;
+          }
+
+          span.line {
+            width: 60%;
+          }
+        }
+
+        .content {
+          -webkit-column-count: 2;
+          -moz-column-count: 2;
+          column-count: 2;
+          -webkit-column-gap: 20px;
+          -moz-column-gap: 20px;
+          column-gap: 20px;
+          -webkit-column-rule: 1px solid transparent;
+          -moz-column-rule: 1px solid transparent;
+          column-rule: 1px solid transparent;
+          margin-bottom: 26px;
+          ul {
+            li {
+              padding-bottom: 10px;
+              .bar {
+                width: 60%;
+                float: right;
+                font-size: 15px;
+                border-radius: 20px;
+                text-align: center;
+                border: 1px solid $primary__color;
+                
+                .skills {
+                  background-color: $primary__color;
+                  border-top-left-radius: 20px;
+                  border-bottom-left-radius: 20px;
+                  color: $primary__color;
+                }
+
+                .css {
+                  width: $css;
+                }
+
+                .html {
+                  width: $html;
+                }
+
+                .java {
+                  width: $java;
+                }
+
+                .c {
+                  width: $c;
+                }
+
+                .ui {
+                  width: $ui;
+                }
+
+                .sql {
+                  width: $sql;
+                }
+
+              }
+            }
+          }
+        }
+      }
+      .proficiency {
+        .title {
+          span.type {
+            width: 28%;
+          }
+
+          span.line {
+            width: 78%;
+          }
+        }
+        .content{
+          padding-bottom: -3px;
+        }
+      }
+      .education {
+        .title {
+          span.type {
+            width: 25%;
+          }
+
+          span.line {
+            width: 81%;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
